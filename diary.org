@@ -1,2 +1,4 @@
 * <2018-05-07 Mon> cloudy
 move the paper diary to org. Read Emacs Mini Guide.
+* <2018-05-08 Tue> cloudy to sunny
+Install a github desktop to my working Windows, it's so cool and how am I get it so late!
