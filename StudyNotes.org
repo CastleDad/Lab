@@ -1,0 +1,86 @@
+* Python
+** 计算机科学及编程导论，麻省理工（网易公开课）
+*** lesson 1 数据类型、运算、变量
+program is a recipe.
+Given a fixed set of primitives, a good programmer can program anything.
+1936, Alan turing, 6 simple primitives. 
+Turing compatibility: anything you can do with one language, you can do with another.
+There is no best language.
+Our goal is to learn how to how to design "recipes", how to structure "recipes", how to do things in modes in Python. not about the language self.
+- 3 dimensions of language
+  - High vs Low
+  - gerneral vs targeted
+  - interpreted vs compiled
+
+Syntax
+semantics: /static semantics/ vs /full semantics/
+
+Values: numbers, strings
+Operations: + - *
+
+*** lesson 2 分支、条件和循环
+note: don't change types arbitrarily. good programming style
+Statement = legal commands that python can interpret
+
+good programming style
+1) comments
+2) choice of variable names, use name that make sense
+
+
+branch: if, elif, else
+iteration/loop: while, for
+
+*** lesson 3 一般代码样式，循环式程序
+Data, operators, commands
+common patern program
+iterative programs
+- choose a var, the "count"
+- initialize outside the loop
+- set up the right and test(variable)
+- construct block
+  - change the variable
+- what to do when done
+flow chart, structure the code
+Simulate the code
+- when terminate
+- when it terminate, does it return the right answer
+Defensive programming: basic assumption, people are dumb, they make mistakes
+exhaustive enumeration: try all reasonable values till you find the solution
+tuple: ordered sequence of elements(immutable)
+- selection, slicing
+*Turing complete* language: with just the set of contructs, anything you can describe algorithmically, you can compute with that set of constructs.
+
+*** lesson 4 函数抽象与递归简介
+Decomposition: break up code to modules
+Abstraction: let us suppress details, treat the computation as a black box
+So add functions
+1) break up into modules
+2) suppress detail
+3) create new "primitive"
+Recursion
+- base case: simplest possible solution
+- inductive/recursive step
+  - break the problem into a simpler version of the same problem and some other steps.
+palindrome
+*** lesson 5 浮点数和二分法（逐次近似）
+long integer: > 2 billion
+float - floating point
+- IEEE 754 floating point
+- a variant of scientific notation, in the form of a mantissa and an exponent
+- 1 <= mantissa < 2, -1022 to 1023 of exponent
+- 64 bit: 1 bit sign, 11 bit exponent, 52 bit for mantissa
+- 17 decimal digits least
+it's very risky to ever use the built-in double equals to compare floating points
+- (math.sqrt(2)) ** 2 == 2? in python, it shows False, cause the result is 2.00...04
+- you should never be testing for equality, you should always test for *close enough*
+- like: abs(a*a - 2.0) < epsilon
+
+* AI
+** 莫愁Python 机器学习 系列视频
+机器学习类型
+1) 监督学习
+2) 半监督学期
+3) 无监督学习
+4) 强化学习
+5) 遗传算法
+
