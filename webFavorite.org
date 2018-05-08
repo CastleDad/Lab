@@ -3,6 +3,7 @@
 Doc
 [[http://tuhdo.github.io/index.html][Emacs mini manual]]
 [[https://tuhdo.github.io/os01/][Book: Operating Systems: From 0 to 1]]
+[[https://linuxstory.org/free-chinese-programming-books/][Linux store program open books list on github]]
 
 Video
 [[https://www.bilibili.com/video/av20088482][Linux core video by USTC teacher]]
