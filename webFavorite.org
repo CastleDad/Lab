@@ -6,3 +6,4 @@ Doc
 
 Video
 [[https://www.bilibili.com/video/av20088482][Linux core video by USTC teacher]]
+[[https://github.com/emacs-china/Spacemacs-rocks/issues/5][Spacemacs Rocks S1]]
