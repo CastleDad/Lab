@@ -1,0 +1,2 @@
+* <2018-05-07 Mon> cloudy
+move the paper diary to org. Read Emacs Mini Guide.
