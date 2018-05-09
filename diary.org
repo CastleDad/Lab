@@ -15,9 +15,11 @@ Every day 3.5h study, 0.5h workout, 2h at least for Chambo.
 4) Emacs & org-mode
 
 ** tracking table
-| date            | 06:00-08:00 | 19:00-21:00 | 21:00-21:30 | 22:00-23:30 |
-|-----------------+-------------+-------------+-------------+-------------|
-| <2018-05-08 二> |   Done well | Not so good |         Bad |   Done well |
+| date            | 06:00-08:00 | 19:00-21:00 | 21:00-21:30   | 22:00-23:30 |
+|-----------------+-------------+-------------+---------------+-------------|
+| <2018-05-08 二> | Done well   | Not so good | Bad           | Done well   |
+| <2018-05-09 三> | Done well   | Not so good | Dumbbell work | Bad         |
+
 
 
 ** log
@@ -26,3 +28,7 @@ move the paper diary to org. Read Emacs Mini Guide.
 *** <2018-05-08 Tue> cloudy to sunny
 Install a github desktop to my working Windows, it's so cool and how am I get it so late!
 To get my wasted 10 years back. Pretend I'm back to graduated students lab. Study python and machine learning this year. And improve English level as well. Meanwhile, must make sure 7h sleep per day, with high quality, 23:30-06:00 and 13:00-13:30.
+*** <2018-05-09 三> Sunny
+What a busy day. No time for study in the working time.
+In the morning, read think python. In the Night study time, it's really too sleapy, go to bed before 11:00. lost about 1 hour.
+Play electric piano, read book with Chambo, but not so good.
