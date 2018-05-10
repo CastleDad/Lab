@@ -13,13 +13,27 @@ Every day 3.5h study, 0.5h workout, 2h at least for Chambo.
 2) Machine learning
 3) English reading&writing
 4) Emacs & org-mode
+* Personal improvement and Chambo Education tracking 
+I put it on web, what a shame if I failed it.
+
+** Time plan:
+- 06:00 - 08:00: Morning study time
+- 19:00 - 21:00: Play and teach Chambo
+- 21:00 - 21:30: workout
+- 22:00 - 23:30: Night study time
+Every day 3.5h study, 0.5h workout, 2h at least for Chambo.
+
+** Target:
+1) Python
+2) Machine learning
+3) English reading&writing
+4) Emacs & org-mode
 
 ** tracking table
 | date            | 06:00-08:00 | 19:00-21:00 | 21:00-21:30   | 22:00-23:30 |
 |-----------------+-------------+-------------+---------------+-------------|
 | <2018-05-08 二> | Done well   | Not so good | Bad           | Done well   |
 | <2018-05-09 三> | Done well   | Not so good | Dumbbell work | Bad         |
-
 
 
 ** log
