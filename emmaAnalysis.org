@@ -1,0 +1,116 @@
+* Emma words ayalysis
+Today I write a short program to analysis the words of fiction Emma.
+To list the words showed in the fiction and how many times are they showed in it.
+And sort by the frequence.
+
+It turns out that first frequent simple words has nearly 50% of the fiction.
+amazing result.
+
+- program
+
+
+#+BEGIN_SRC
+import string
+
+def process_file(filename):
+    hist = dict()
+    fp = open(filename)
+    for line in fp:
+        process_line(line, hist)
+    return hist
+
+def process_line(line, hist):
+    line = line.replace('-', ' ')
+
+    for word in line.split():
+        word = word.strip(string.punctuation+string.whitespace)
+        word = word.lower()
+
+        hist[word] = hist.get(word, 0) + 1
+
+hist = process_file('emma.txt')
+
+readlinenum =10
+if len(hist)<10:
+    readlinenum = len(hist)
+
+itemTList = hist.items()
+#print(len(itemTList))    #7214 words
+
+#reverse the tuple value and key for sort
+totalWordNum = 0
+for i in range(len(itemTList)):
+    word = itemTList[i][0]
+    wordnum = itemTList[i][1]
+    itemTList[i] = (wordnum, word)
+    totalWordNum += wordnum
+    
+itemTList.sort(reverse=True)
+
+print('total ' + str(totalWordNum) + ' words')
+
+tempWordNum = 0
+for i in range(50):
+    print(itemTList[i])
+    tempWordNum += itemTList[i][0]
+
+print("first 50 words show " + str(tempWordNum) + ' times')
+#+END_SRC
+
+
+- result:
+
+#+BEGIN_EXAMPLE
+total 161078 words
+(5242, 'to')
+(5205, 'the')
+(4897, 'and')
+(4295, 'of')
+(3190, 'i')
+(3130, 'a')
+(2529, 'it')
+(2483, 'her')
+(2400, 'was')
+(2364, 'she')
+(2188, 'in')
+(2151, 'not')
+(1999, 'you')
+(1976, 'be')
+(1811, 'he')
+(1800, 'that')
+(1626, 'had')
+(1441, 'but')
+(1437, 'as')
+(1347, 'for')
+(1321, 'have')
+(1243, 'is')
+(1218, 'with')
+(1212, 'very')
+(1154, 'mr')
+(1150, 'his')
+(1033, 'at')
+(974, 'so')
+(848, 'all')
+(837, 'could')
+(821, 'would')
+(786, 'emma')
+(771, 'him')
+(760, 'been')
+(742, 'no')
+(732, 'my')
+(701, 'mrs')
+(692, 'on')
+(655, 'any')
+(639, 'do')
+(602, 'miss')
+(601, 'were')
+(583, 'me')
+(573, 'will')
+(571, 'must')
+(571, 'by')
+(556, 'which')
+(551, 'there')
+(546, 'from')
+(541, 'they')
+first 50 words show 77495 times
+#+END_EXAMPLE
