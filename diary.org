@@ -21,7 +21,8 @@ Every day 3.5h study, 0.5h workout, 2h at least for Chambo.
 | <2018-05-09 Wed> | Done well   | Not so good | Dumbbell work | Bad         |
 | <2018-05-10 Thu> | Done well   | not so good | No            | No          |
 | <2018-05-11 Fri> |             |             |               |             |
-
+| <2018-05-15 Tue> | to airport  | good        | no            | Done well   |
+| <2018-05-16 Wed> | to company  | good        | no            | good        |
 
 
 ** log
@@ -38,3 +39,10 @@ Play electric piano, read book with Chambo, but not so good.
 Weihua will leave HP to Philips, have lunch with her in Huizhi.
 Too sleepy this night, get sleep in the sofa about 8:00 PM, so the planed work failed.
 the first 3 days, morning work are good, but night work need improve.
+*** <2018-05-15 Tue> sunny
+Drive to take M to Airport in the morning. And goto two gas station with no gas supply. There's oil only for 40km when I get the office. In 5:00, I back home, waiting a long line in a Sinopec gas station and final only get 50RMB oil to avoid the car stop on the way to Petro station. When I finally get the Petro station, I found the oil card is missing, can't find it anywhere. then I have to go home with only 50RMB oil. and in home, I find the card is actually in my wallet. What a mess.
+First time I take Chambo a shower. Will do it every day from now on.
+Studying install os in virtual box these two days. ok in win10, but failed in ubuntu.
+*** <2018-05-16 Wed> sunny
+have a meeting 8:00AM. go to office @7:00am, so only 1hr for morning study.
+finished /Think Python/ study.
